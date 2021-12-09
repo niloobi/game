@@ -1,0 +1,76 @@
+html{
+  display:block;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: transparent;
+  width:98vw;
+  height:98vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: cursive;
+}
+body{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+
+h1 {
+  font-family: unset;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: rgb(12, 9, 9);
+  margin-top: 10px;
+  animation:glaze 2s ease-in-out infinite;
+}
+
+
+@keyframes glaze{
+  20%{
+    color:rgb(61, 54, 54);
+    text-shadow: 0 0 2vw rgb(70, 70, 67);
+  }
+}
+
+h1{
+  color: rgba(3, 2, 2, 0);
+  opacity:70%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  
+}
+
+.start {
+  background-color:rgb(190, 101, 101);
+  border: 1px solid rgba(247, 171, 196, 0.959);
+  border-radius: 50%;
+  
+  width:35px;
+  height:35px;
+  animation: glow 750ms ease-in-out infinite;
+  transition: transform 750ms;
+  
+ 
+ 
+}
+
+@keyframes glow{
+  50%{
+   
+  }
+}
+
+.hide-ball,.hide-reload {
+  display: none;
+}
+
+.show-reload {
+  display: block;
+  text-align: center;
+  margin-left: 1.6rem;
+}
+
